@@ -11,7 +11,8 @@ html {
 }
 
 body {
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Comfortaa', sans-serif !important;
+  background-color: #f7f7f7;
 }
 
 ul {
@@ -135,4 +136,9 @@ a {
   .site__logo {
     width: 100%;
   }
+}
+
+/* footer section */
+.footer__section{
+  background-color: #333;
 }

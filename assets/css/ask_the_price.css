@@ -1,0 +1,102 @@
+/* service banner */
+.service__banner {
+  width: 100%;
+  background-image: url(../images/fon_blok1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.banner__text__box {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner__text__box h1 {
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.banner__text__box p {
+  color: white;
+  font-size: 15px;
+}
+
+/* product section */
+.product__box {
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px 0px;
+  position: relative;
+}
+
+.product__rating__comment ul li {
+  display: inline-block;
+}
+
+.product__title {
+  color: #333 !important;
+  font-weight: 600;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.product__btn a {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.card__hover__text {
+  position: absolute;
+  display: none;
+  background-color: white;
+  font-size: 14px;
+  padding: 15px;
+  transition: all ease-in 0.5s;
+  z-index: 999;
+}
+
+.product__box:hover .card__hover__text {
+  display: block;
+}
+
+.product__icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 99;
+}
+
+.product__icon ul li a {
+  color: #777;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 0px 5px;
+  transition: all .75s ease-in-out;
+
+  &:hover {
+    color: white;
+    background-color: #777;
+  }
+}
+
+/* discover section */
+.discover__section {
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/fon_blok2.jpg);
+}
+
+/* contact section */
+.contact__box{
+  display: flex;
+}

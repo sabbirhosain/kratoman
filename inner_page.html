@@ -10,14 +10,14 @@
   <link rel="stylesheet" href="assets/font-awsome/css/all.min.css">
   <link rel="stylesheet" href="assets/font-awsome/css/fontawesome.min.css">
   <!-- google fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
   <!-- coustome css -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/inner_page.css">
 </head>
 
 <body>
+  <!-- header section -->
   <header class="header__section">
     <div class="top__navbar">
       <div class="container-fluid">
@@ -48,7 +48,7 @@
           <div class="col-lg-4 col-md-12 col-sm-12">
             <div class="row">
               <div class="col-7 g-0 search__bar">
-                <form class="d-none d-md-flex" role="search">
+                <form class="d-none d-lg-flex" role="search">
                   <input class="form-control src__box me-2" type="search" placeholder="искать/search"
                     aria-label="Search">
                   <button class="btn btn-danger src__btn" type="submit">Go</button>
@@ -61,11 +61,17 @@
                       class="fa-regular fa-user"></i></a>
                   <ul class="dropdown-menu user-dropdown-menu">
                     <li><a class="dropdown-item user-dropdown-item" href="#">Action</a></li>
-                    <li><hr class="dropdown-divider m-0"></li>
+                    <li>
+                      <hr class="dropdown-divider m-0">
+                    </li>
                     <li><a class="dropdown-item user-dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider m-0"></li>
+                    <li>
+                      <hr class="dropdown-divider m-0">
+                    </li>
                     <li><a class="dropdown-item user-dropdown-item" href="#">Something else here</a></li>
-                    <li><hr class="dropdown-divider m-0"></li>
+                    <li>
+                      <hr class="dropdown-divider m-0">
+                    </li>
                     <li><a class="dropdown-item user-dropdown-item" href="#">Something else here</a></li>
                   </ul>
                 </div>
@@ -73,7 +79,8 @@
                 <div class="dropdown">
                   <a class="dropdown-toggle position-relative shoping" type="button" data-bs-toggle="dropdown"
                     aria-expanded="false"><i class="fa-brands fa-shopify"></i>
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-success">0<span
+                    <span
+                      class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-success">0<span
                         class="visually-hidden">unread messages</span>
                     </span>
                   </a>
@@ -90,6 +97,54 @@
     </div>
   </header>
 
+  <!-- footer sectoon -->
+  <footer class="footer__section mt-5">
+    <div class="container">
+      <div class="row align-items-center justify-content-between py-3">
+        <div class="col-lg-4">
+          <div class="footer__content">
+            <h6>CONTACT US</h6>
+            <ul>
+              <li><a href="">095 594 99 44 Viber, WhatsApp</a></li>
+              <li><a href="">068 594 99 44</a></li>
+              <li><a href="">073 594 99 44</a></li>
+              <li><a href="">sales@kratoman.com.ua</a></li>
+              <li>
+                <div class="social">
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                  <a href=""><i class="fa-solid fa-phone"></i></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="footer__content">
+            <h6>PAGES</h6>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Categories</a></li>
+              <li><a href="">Privacy Policy KRATOMAN</a></li>
+              <li><a href="">Questions - Answers</a></li>
+              <li><a href="">Support</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="footer__content">
+            <h6>SIGN UP NOW</h6>
+            <form action="" method="post">
+              <input class="form-control" type="text" placeholder="Name" aria-label="Search">
+              <input class="form-control" type="email" placeholder="Email" aria-label="Search">
+              <button class="btn btn-danger">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/app.js"></script>
