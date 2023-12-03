@@ -1,0 +1,138 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Comfortaa', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.top__navbar {
+  background-color: #333;
+  width: 100%;
+}
+
+.top__row {
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.number__list ul li {
+  color: white;
+  font-size: 16px;
+  transition: all 0.5s;
+  padding: 1px 0px;
+}
+
+.number__list ul li a {
+  color: white !important;
+}
+
+.number__list ul li a:hover {
+  color: green !important;
+}
+
+.email__list ul li a {
+  color: white;
+  margin-top: -4px;
+  font-size: 14px;
+  transition: all 0.5s;
+
+  &:hover {
+    color: green;
+  }
+}
+
+.email__list ul li i {
+  color: white;
+  font-size: 25px;
+  margin-right: 15px;
+  font-weight: 400;
+}
+
+.email__list ul li .callback__btn {
+  color: white;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 25px;
+  border: 1px solid white;
+  padding: 4px 50px;
+  transition: all 0.5s;
+
+  &:hover {
+    color: white;
+    border: 1px solid green;
+  }
+}
+
+.site__logo {
+  width: 50%;
+}
+
+.src__box {
+  border: 1px solid #3b3b3b;
+  background-color: #333;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #333;
+  border: none !important;
+  outline: none !important;
+}
+
+.src__btn {
+  padding: 0 25px;
+}
+
+.user,
+.shoping {
+  color: white;
+  font-size: 22px;
+  margin: 0px 15px;
+
+  &:hover {
+    color: white !important;
+  }
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.user-dropdown-menu {
+  background-color: #333;
+}
+
+.user-dropdown-item {
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .site__logo {
+    width: 100%;
+  }
+}
